@@ -1,0 +1,86 @@
+*{
+    font-family: cursive;
+    margin:0px;
+    padding:0px;
+    font-weight: bolder;
+
+}
+nav{
+    background-color: aquamarine;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding:  3%;
+    grid-gap:10%;
+}
+nav .a-inputs{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    padding:10%;
+}
+nav .a-inputs #a-size{
+    padding: 5% 0%;
+}
+nav .a-inputs #a-speed{
+    padding: 5% 0%;
+    margin-bottom: 8%;
+}
+/* 
+ */
+ nav .a-inputs #a-generate{
+    padding: 2%;
+}
+nav .a-inputs #a-generate{
+    cursor: pointer;
+}
+
+nav .main .main-head{
+    font-size: xx-large;
+    padding: 5%;
+}
+nav .main .r{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+}
+nav .main .r button{
+    padding:2%;
+}
+nav .main .r button:hover{
+    cursor: pointer;
+}
+section{
+    margin: 0% 10% 0% 10%;
+    
+ }
+section #a-container{
+
+    display: flex;
+    height: 60vh;
+    align-items: flex-end;
+    background-color:thistle;
+}
+.box{
+    float:left;
+    height:20px;
+    width:20px;
+    margin-bottom: 1px;
+    border:1px solid black;
+    clear:both;
+
+}
+.w{
+    border: 1px solid black;
+}
+.blue{
+    background-color: blue;
+}
+.purple{
+    background-color: purple;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}

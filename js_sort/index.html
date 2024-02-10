@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sorting visualizer</title>
+    <link rel="StyleSheet" href="./css/style.css">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="a-inputs">
+                <p>Size of array:</p>
+                <input type="range" id="a-size" min="15" max="100" step="1" value="100"/>
+                <p>Speed :</p>
+                <input type="range" id="a-speed" min="1" max="6" step="1"/>
+                <button id="a-generate">Generate a new array</button>
+            </div>
+            <div class="main">
+                <p class="main-head">Sorting visualizer</p>
+                <div class="r">
+                    <button id="but">Bubble</button>
+                    <button id="but">Merge</button>
+                    <button id="but">Selection</button>
+                    <button id="but">Heap</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="a-container">
+        </div>
+    </section>
+        
+        
+    
+    <script src="./scripts/mainscript.js"></script>
+    <script src="./scripts/bubble.js"></script>
+        <script src="./scripts/merge.js"></script>
+    <script src="./scripts/selection.js"></script>
+        <script src="./scripts/heap.js"></script>
+</body>
+</html>
